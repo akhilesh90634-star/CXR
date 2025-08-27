@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .parent-container {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr; /*200px 100px 100px (repeat(3,100px)- this for full screen of three columns)*/
+        grid-template-rows: 100px 300px 100px;
+        gap: 15px;
+      }
+
+      .child-item {
+        background-color: hsl(344, 60, 90);
+
+        padding: 10px;
+        color: #b7154080;
+      }
+
+      .hello {
+        font-size: 16px;
+      }
+
+      .good {
+        font-size: 1.5em;
+        max-width: 60ch;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <div class="parent-container">
+  <div class="child-item">1</div>
+  <div class="child-item">2</div>
+  <div class="child-item">3</div>
+  <div class="child-item">4</div>
+  <div class="child-item">5</div>
+  <div class="child-item">6</div>
+  <div class="child-item">7</div>
+</div> -->
+
+    <div class="hello">
+      HELLO
+      <p class="good">Hey good morning</p>
+    </div>
+  </body>
+</html>
